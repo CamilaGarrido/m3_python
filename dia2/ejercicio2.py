@@ -45,9 +45,50 @@ print(", ".join(["a","b","c"]))
 print(", ".join(["camila","garrido","barrientos"]))
 print(",".join(["camila","garrido","barrientos"]))
 
-print("hola\nmundo\nviernes")
+print("al\nfin\nviernes")
 """
-hola
-mundo
+al
+fin
 viernes
 """
+
+mi_direccion = ""
+miDireccion=""
+#1miDireccion="" esto esta malo, no poner un numero delante, ni espacios en blancos
+cantidad_alumnos= 30
+peso = 85.5
+verdadero= True
+
+
+#Tipo de datos type (nombre_variable)-> me dice al tipo de variable que pertenece
+#print(type(nombre_variable))
+print(type(nombre)) #<class 'str'>
+print(type(año)) #<class 'str'>
+print(type(mes)) # <class 'int'>
+print(type(peso)) #<class 'float'>
+print(type(verdadero)) #<class 'bool'>
+
+type(verdadero) # no imprime el tipo de dato
+
+#Manipulacion Variables
+
+numero = 2 #si la variable esta a la izq es una asignacion 
+numero = numero + 3 #numero = 2 + 3 #si esta a la derecha es para evaluar (sacarle el valor)
+print(numero)#5
+
+nombre = nombre + "Garrido" # estoy concatenando, #nombre = "Camila"+"Garrido"
+print(nombre) #CamilaGarrido
+
+#precision de datos
+print(5/9) #0.5555555555555556
+print(f"resultado de la division {5/9:.2f}")
+print("el resultado de la division",round(5/9,3))
+
+# al trabajar con input el valor ingresado es de tipo string
+
+input("ingrese su nombre:")
+
+
+
+
+
