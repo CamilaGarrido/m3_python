@@ -86,9 +86,9 @@ print("el resultado de la division",round(5/9,3))
 
 # al trabajar con input el valor ingresado es de tipo string
 
-input("ingrese su nombre:")
-
-
-
-
-
+nombre = input("ingrese su Nombre: ")
+print("Tu nombre es",nombre)
+print(f"Tu nombre es {nombre}")
+edad = input("ingrese su Edad: ")
+print("Tu tienes",edad,"años")
+print(type(edad)) #<class 'str'>
