@@ -18,3 +18,9 @@ dia = 7
 
 print(f"Hola {nombre}, El año es {año} del mes {mes} y el dia {dia} ")
 
+#string.format
+#print("".format())
+print("Hola{}, El año es {} del mes {} y el dia {}".format(nombre,año,mes,dia))
+
+#Interpolacion con % (%s para string y %d para numeros)
+print("Hola %s, El año es %s del mes %d y el dia %d" %(nombre, año, mes,dia))
