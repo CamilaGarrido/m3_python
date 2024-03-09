@@ -92,3 +92,4 @@ print(f"Tu nombre es {nombre}")
 edad = input("ingrese su Edad: ")
 print("Tu tienes",edad,"años")
 print(type(edad)) #<class 'str'>
+
