@@ -23,3 +23,6 @@ print(math.ceil(3.1416)) #ceil aproxima al entero superior
 #conda install pytorch
 #yes
 
+#añadir a variables de entorno
+#C:\Users\camil\anaconda3
+#C:\Users\camil\anaconda3\Scripts
