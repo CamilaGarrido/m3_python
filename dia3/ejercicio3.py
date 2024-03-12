@@ -6,7 +6,7 @@ deben ingresarse de manera interactiva utilizando la función input().
 """
 
 #Paso 1: Capturar los datos (string), y conversion
-#radio = float(input("Ingrese el radio en kilometros"))*1000 (no nos aseguramos si lo que ingreso el usuario este bien)
+#radio = float(input("Ingrese el radio en kilometros"))*1000 (no, nos aseguramos si lo que ingreso el usuario este bien)
 
 radio_kilometros = input("Ingrese el radio en kilometros")
 radio_kilometros = float(radio_kilometros)
