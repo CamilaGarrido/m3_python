@@ -7,7 +7,7 @@ def calcular_velocidad_escape(radio, constante_gravitacional): #define una funci
 def main(): #se define otra función llamada main()
     print("Ingrese el radio en Kilómetros:")
     radio_km = float(input()) # función input() para solicitar al usuario que ingrese el radio del planeta en kilómetros y la constante gravitacional.
-    print("Ingrese la constante g:")
+    print("Ingrese la constante de gravedad del planeta en [mt/s]:")
     constante_gravitacional = float(input())
 
     # Convertir el radio de kilómetros a metros, multiplicando por 1000 (ya que 1 km=1000m).
@@ -18,5 +18,5 @@ def main(): #se define otra función llamada main()
     
     print(f"La velocidad de Escape es {velocidad_escape:.1f} [m/s]") #Finalmente, imprime el resultado.
 
-if __name__ == "__main__": #Esta línea asegura que el código dentro del bloque se ejecute solo si el script se ejecuta como el programa principal.Llama a la función main(), lo que inicia la ejecución del programa.
+if __name__ == "__main__": #Llama a la función main(), lo que inicia la ejecución del programa.
     main()
