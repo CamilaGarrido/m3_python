@@ -7,13 +7,13 @@ altura_cm = float(input("Ingrese su altura en centimetros (cm): ")) #Solicitar a
 
 altura_m = altura_cm / 100 #Convertir la altura de (cm) a (m) dividiendo entre 100 y se almacena en la variable altura_m.
 
-# Paso 3: Calcular el IMC utilizando la fórmula proporcionada.
+# Paso 3: Calcular el IMC 
 
-imc = peso_kg / (altura_m ** 2)  #Fórmula IMC: peso_kg / (altura_m al cuadrado) y se almacena en la variable imc.
+imc = peso_kg / (altura_m ** 2)  #Fórmula IMC: peso_kg/(altura_m ^2) y se almacena en la variable imc.
 
 # Paso 4: Redondear el resultado a dos decimales.
 
-imc = round(imc, 2) #Redondear el valor de IMC a dos decimales y se actualiza la variable imc.
+imc = round(imc, 2) 
 
 # Paso 5: clasificar el IMC según la OMS.
 if imc < 18.5: 
