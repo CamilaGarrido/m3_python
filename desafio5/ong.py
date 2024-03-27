@@ -1,5 +1,13 @@
 #paso 1: Calculo del factorial de un numero
 def factorial(numero):#5! = 5*4*3*2*1
+    """Calculo del factorial de un numero
+
+    Args:
+        numero (int): número del cual se calculara el factorial
+
+    Returns:
+        int: resultado del factorial de un numero
+    """
     valor = 1 # variable acumuladora
     for n in range(1,numero+1):#1,2,3,4,5
         valor = valor * n
@@ -27,3 +35,5 @@ def calcular(**parametros): #* tupla; ** diccionario
 
 #paso 4: invocacion al metodo
 calcular(fact_1 = 5, prod_1 = [4, 6, 7, 4, 3], fact_2 = 6)
+
+factorial()
