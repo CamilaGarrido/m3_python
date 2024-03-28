@@ -1,4 +1,4 @@
-#paso 1: Calculo del factorial de un numero
+#Paso 1: Calculo del factorial de un número
 def factorial(numero):#5! = 5*4*3*2*1
     """Calculo del factorial de un numero
 
@@ -15,7 +15,7 @@ def factorial(numero):#5! = 5*4*3*2*1
 
 #print("el factorial es:",factorial(6))
 
-#paso 2: Una función que calcule la productoria
+#Paso 2: Una función que calcule la productoria
 def productoria(lista):
     valor = 1
     for elemento in lista:
@@ -24,7 +24,7 @@ def productoria(lista):
 
 #print(productoria([4, 6, 7, 4, 3]))
 
-#paso 3: Una función que permita controlar los cálculos. 
+#Paso 3: Una función que permita controlar los cálculos. 
 # Esta función se debe invocar de la siguiente manera:
 def calcular(**parametros): #* tupla; ** diccionario 
     for clave,valor in parametros.items():
@@ -33,7 +33,6 @@ def calcular(**parametros): #* tupla; ** diccionario
         else:
             print(f"La productoria de {valor} es {productoria(valor)}")
 
-#paso 4: invocacion al metodo
+#Paso 4: Invocacion al metodo
 calcular(fact_1 = 5, prod_1 = [4, 6, 7, 4, 3], fact_2 = 6)
-
-factorial()
+#factorial()
