@@ -1,6 +1,6 @@
 import requests
 
-url = "https://jsonplaceholder.typicode.com/posts "
+url = "https://jsonplaceholder.typicode.com/posts"
 
 payload = {}
 headers = {}
